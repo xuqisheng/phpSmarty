@@ -7,7 +7,7 @@
  */
 require 'vendor/autoload.php';
 
-define('__SITE_ROOT', '/Users/andy/PhpstormProjects/testComposer'); // 最后没有斜线
+define('__SITE_ROOT', getcwd()); // 最后没有斜线
 
 class Smarty_GuestBook extends Smarty {
     function __construct()
