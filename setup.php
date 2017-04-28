@@ -21,5 +21,6 @@ class Smarty_GuestBook extends Smarty {
 
         $this->caching = Smarty::CACHING_LIFETIME_CURRENT;
         $this->assign('app_name', 'Guest Book');
+
     }
 }
